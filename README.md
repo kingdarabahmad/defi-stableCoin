@@ -23,7 +23,7 @@ $ forge build
 
 ### Test
 
-```shell
+```shell`
 $ forge test
 ```
 
@@ -64,3 +64,13 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+//Defi stable coin
+1. anchored or pegged with dollar
+    1. Chainlink Price feed.
+    2. set a function to exchange ETH and BTC
+2. algorithmic --> minting and burning is decentralized
+    1. People can only mint stablecoin with enough collateral
+3. collateral: Exogenous (Crypto)
+    1. wETH--> erc20 version of eth
+    2. wBTC--> erc20 version of bitcoin
